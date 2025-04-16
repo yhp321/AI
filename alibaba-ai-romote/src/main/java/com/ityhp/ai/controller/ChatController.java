@@ -77,7 +77,7 @@ public class ChatController {
                 .build();
         return GenerationParam.builder()
                 // 若没有配置环境变量，请用百炼API Key将下行替换为：.apiKey("sk-xxx")
-                .apiKey("sk-e09a0460b88d48d9a1dca9a85b777021")
+                .apiKey("sk-key")
                 .model("qwq-plus")   // 此处以qwen-plus为例，您可按需更换模型名称。模型列表：https://help.aliyun.com/zh/model-studio/getting-started/models
                 .messages(Arrays.asList(userMsg))
                 .resultFormat(GenerationParam.ResultFormat.MESSAGE)
